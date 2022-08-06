@@ -48,6 +48,29 @@ p {
   padding: 0 12px;
 }
 
+.header-right-content {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.header-more {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.icon {
+  margin-left: 16px;
+}
+
 .header-title {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -61,4 +84,19 @@ p {
 
 .divider {
   margin-bottom: 16px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+.input {
+  padding: 8px 16px;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  outline: none;
+  border-color: transparent;
 }
