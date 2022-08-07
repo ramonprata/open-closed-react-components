@@ -10,13 +10,11 @@ export default function HeaderTitle({
   title,
   ...headerProps
 }: React.PropsWithChildren<IHeaderTitleProps>) {
-  return (
-    <OpenClosedHeader {...headerProps}>
-      {typeof title === 'string' ? (
-        <h4 className="header-title">{title}</h4>
-      ) : (
-        title
-      )}
-    </OpenClosedHeader>
-  );
+  const titleRender =
+    typeof title === 'string' ? (
+      <h4 className="header-title">{title}</h4>
+    ) : (
+      title
+    );
+  return <OpenClosedHeader {...headerProps}>{titleRender}</OpenClosedHeader>;
 }

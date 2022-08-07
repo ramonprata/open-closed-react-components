@@ -26,15 +26,18 @@ export default function App() {
 
           <div className="divider" />
 
-          <HeaderNavigation
-            showLogo
-            onNavigateBack={() => {}}
-            renderRight={renderRight}
-          />
+          {
+            <HeaderNavigation
+              showLogo
+              onNavigateBack={() => {}}
+              renderRight={renderRight}
+            />
+          }
 
           <div className="divider" />
 
           <HeaderNavigation onNavigateBack={() => {}}>
+            {/* children here */}
             <div className="input-container">
               <input type="text" className="input" placeholder="Type here.." />
             </div>

@@ -36,6 +36,8 @@ p {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 .header-left-content {
@@ -79,7 +81,7 @@ p {
 /* logo */
 .logo-container {
   max-width: 25vw;
-  max-height: 54px;
+  height: 100%;
 }
 
 .divider {
@@ -91,12 +93,14 @@ p {
   flex-direction: row;
   width: 100%;
   justify-content: flex-end;
+  margin-left: 8px;
 }
+
 .input {
   padding: 8px 16px;
-  margin: 8px;
   box-sizing: border-box;
   border-radius: 6px;
   outline: none;
+  width: 90%;
   border-color: transparent;
 }
