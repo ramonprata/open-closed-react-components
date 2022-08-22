@@ -1,3 +1,3 @@
-# react-ts-amojcu
+# Open-closed principle applied to React Components.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-amojcu)
+[Read my article on Medium ⚡️](https://ramonprata.medium.com/reactsmalltips-open-closed-react-components-248226863276)
